@@ -1,0 +1,8 @@
+---
+- name: Iniciando Update do YUM
+  host: front
+  tasks:
+    - name: Update Yum
+      yum:
+        name: '*'
+        state: latest
