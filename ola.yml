@@ -1,6 +1,6 @@
 
 - name: Exemplo de mensagem
-  hosts: testeAnsiTow
+  hosts: all
   tasks:
     - name: Mensagem de olá
       debug:
