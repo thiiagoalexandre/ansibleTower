@@ -1,0 +1,7 @@
+
+- name: Exemplo de mensagem
+  hosts: testeAnsiTow
+  tasks:
+    - name: Mensagem de olá
+      debug:
+        msg: "Ola! O teste foi realizado com sucesso"
