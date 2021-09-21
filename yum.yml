@@ -1,6 +1,6 @@
 
 - name: Iniciando Update do YUM
-  host: front
+  hosts: front
   tasks:
     - name: Update Yum
       yum:
